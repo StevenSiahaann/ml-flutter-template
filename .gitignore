@@ -43,3 +43,28 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Environment variables
+.env
+.env.*
+
+# Firebase config (sensitive, generated per-user)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+lib/firebase_options.dart
+
+# Downloaded model folder (temp)
+downloaded_model/
+
+# Large model file (distributed via Firebase ML)
+assets/food_model.tflite
+
+# Credentials & API Keys
+.env
+service_account.json
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# ML Models
+*.tflite
+downloaded_model/

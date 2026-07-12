@@ -1,1 +1,38 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"fir-ml-project-dicoding","appId":"1:513550843773:android:7ebefdd0c8f67030a5d614","fileOutput":"android/app/google-services.json"}},"ios":{"default":{"projectId":"fir-ml-project-dicoding","appId":"1:513550843773:ios:ee1abafbff954cbfa5d614","uploadDebugSymbols":false,"fileOutput":"ios/Runner/GoogleService-Info.plist"}},"dart":{"lib/firebase_options.dart":{"projectId":"fir-ml-project-dicoding","configurations":{"android":"1:513550843773:android:7ebefdd0c8f67030a5d614","ios":"1:513550843773:ios:ee1abafbff954cbfa5d614"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "food-recognizer-app-f3c14",
+          "appId": "1:91805813512:android:5d62f0767142e6a0a33abd",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "food-recognizer-app-f3c14",
+          "appId": "1:91805813512:ios:4fa75a1f7a689ce2a33abd",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "food-recognizer-app-f3c14",
+          "configurations": {
+            "android": "1:91805813512:android:5d62f0767142e6a0a33abd",
+            "ios": "1:91805813512:ios:4fa75a1f7a689ce2a33abd"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
